@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS posts;
+
+CREATE TABLE posts (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT NOT NULL,
+    fone TEXT NOT NULL,
+    email TEXT NOT NULL,
+    mensagem TEXT NOT NULL
+);
